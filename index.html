@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Habbid - Nunca foi tão divertido jogar Habbo Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/habbid.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3533644-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3533644-6');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MMG4BRQ');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMG4BRQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <div class="container" style="margin-top:100px;">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bgdark" style="background-color:#8596AB!important;" id="menu">
+        <a class="navbar-brand" href="#"><div class="iconMenu"></div></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Home</a>
+              </div>
+            </li>
+
+          </ul>
+      </div>
+      </nav>
+
+    <div id="logo"></div>
+
+    <div id="central">
+      <div class="boxLeft" id="loc">
+        <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?hb=image&user=Mungu&headonly=0&direction=2&head_direction=2&action=&gesture=&size=l&headonly=1">
+      </div>
+      <div class="boxRight">
+        <div class="boxT" id="ouvintesRF"><b>... ouvintes</b></div>
+        <div class="boxT" id="locutorRF"><b>Locutor:</b> ...</div>
+        <div class="boxT" id="programaRF"><b>Programa:</b> ...</div>
+
+        <audio controls="controls" id="stream" autoplay autoplay="" preload="none" style="margin:10px auto;">
+          <source id="source_mpeg" src="http://stm10.srvstm.com:7826/;type=mp3" type="audio/mpeg">
+          <source id="source_ogg" src="http://stm10.srvstm.com:7826/;type=ogg" type="audio/ogg">
+          <source id="source_aacplus" src="http://stm10.srvstm.com:7826/;type=aacplus" type="audio/aacplus">
+          <source id="source_wav" src="http://stm10.srvstm.com:7826/;type=wav" type="audio/wav">
+        </audio>
+      </div>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="max-width:720px; margin:0 auto; border:3px #EEE solid; margin-bottom:15px">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <a href="Habbid.apk">
+            <img class="d-block w-100" src="img/slides/apphabbid.png" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aplicativo da Habbid</h5>
+              <p>Clique aqui e baixe agora o app da Habbid para o seu Android!</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="https://chrome.google.com/webstore/detail/habbid/pampfjfingcahpmeflbfncdobdkipgkh?hl=pt-BR" target="_newBlank">
+            <img class="d-block w-100" src="img/slides/extensao.png" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Extensão da Habbid</h5>
+              <p>Clique aqui e instale a extensão da Habbid no Chrome agora!</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+
+
+    </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+var st = document.getElementById("stream");
+
+window.setInterval(function() {
+	if(st.paused){
+		st.play();
+		console.log(".");
+	}
+}, 3000);
+
+
+
+$.getJSON("http://habbid.com.br/api/dados_radio.json", function(result){
+        if(result.locutor){
+          $("#locutorRF").html("<b>Locutor:</b> " + result.locutor);
+        }
+
+        if(result.programa){
+          $("#programaRF").html("<b>Programa:</b> " + result.programa);
+        }
+        if(parseInt(result.ouvintes)){
+          $("#ouvintesRF").html("<b>" + result.ouvintes + " ouvintes</b>");
+        }
+        $("#loc").html('<img src="https://www.habbo.com.br/habbo-imaging/avatarimage?hb=image&user='+ result.locutor +'&headonly=0&direction=2&head_direction=2&action=&gesture=&size=l&headonly=1">');
+      });
+
+  window.setInterval(function() {
+      $.getJSON("http://habbid.com.br/api/dados_radio.json", function(result){
+        if(result.locutor){
+          $("#locutorRF").html("<b>Locutor:</b> " + result.locutor);
+        }
+
+        if(result.programa){
+          $("#programaRF").html("<b>Programa:</b> " + result.programa);
+        }
+        if(parseInt(result.ouvintes)){
+          $("#ouvintesRF").html("<b>" + result.ouvintes + " ouvintes</b>");
+        }
+        $("#loc").html('<img src="https://www.habbo.com.br/habbo-imaging/avatarimage?hb=image&user='+ result.locutor +'&headonly=0&direction=2&head_direction=2&action=&gesture=&size=l&headonly=1">');
+      });
+}, 15000);
+
+/*
+http://www.habbid.com.br/api/dados_radio.json
+locutor
+programa
+ouvintes
+*/
+</script>
+</body>
+</html>
