@@ -1,0 +1,47 @@
+#nuvens {width:100%; height:300px; border-bottom:5px solid #C7C7C7; line-height:300px; text-align:center}
+#player {width:100%; margin:21px auto; background:#2569A0; height:56px; border-radius:5px; position:relative}
+#twitter {width:100%; height:250px; border-radius:5px; background-color:#FFF; margin-bottom:21px}
+
+.container {max-width:800px}
+.imgf {width:100%; height:250px; background-position:center; }
+
+#avatarloc {width:137px; height:130px; background:url(../img/fundo-loc.png); margin-top:-74px; position:absolute; text-align:center; float:left}
+#avatarloc img {margin-top:8px}
+
+#campos {margin-left:150px; width:170px; position:absolute; height:31px; line-height:18px; margin-top:8px; font-size:15px; font-family: SegoeUI,Arial,sans-serif; }
+#locutorHD {font-weight:700; color:#FFF;}
+#programaHD {font-weight:600; color:#79B2DF}
+
+#direito {width:auto; height:56px; float:right; position:absolute; right:20px}
+.circle{width:44px;height:44px; margin-top:6px; margin-right:8px; float:left; background-color: #205A8A; border-radius:50%; text-align:center; line-height:44px}
+.circle span {color:#FFF; font-size:24px; line-height:40px}
+.circle img {margin-top:-1px; width:}
+.circle2 {width:100px;height:44px; font-size:18px; margin-top:6px; float:left; background-color: #205A8A; border-radius:45px; text-align:center; line-height:42px; font-family: SegoeUI,Arial,sans-serif; font-weight:700; color:#FFF}
+
+#forum {width:100%; height:44px; position: relative; background-color:#8BB4F9; border:solid 4px #FFF; border-radius:5px; background-image:url(../img/acessaroforum.png); background-repeat:no-repeat; background-position: 5px 5px}
+#iconbp {width:40px; height:46px; background:url(../img/icon-bate-papo.png); position:absolute; right:0px; bottom:0px}
+
+.botaofundo {width:44px; height:44px; background-color:#8BB4F9; border-radius:5px; border:solid 4px #FFF; margin-left:12px; margin-bottom:21px; float:right; background-position: center}
+
+.modal-body img {margin-top:10px}
+
+.blocoQd {width:49px; height:49px; border-radius:4px; margin-right:10px; margin-bottom:10px; float:left;}
+
+@media(max-width: 700px){
+	#nuvens {height:200px; line-height:200px}
+}
+
+@media(max-width: 400px){
+	#icon-hotel {display:none}
+  #direito {right:5px}
+}
+
+@media(min-width: 769px){
+	#carouselExampleControls {height:250px;}
+  .carousel-item img {height:250px; background-size:720px}
+}
+
+@media(max-width: 635px){
+	#avatarloc {display:none}
+  #campos {margin-left:15px;}
+}
